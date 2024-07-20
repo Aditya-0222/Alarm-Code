@@ -19,7 +19,7 @@
 
   1.Install the required Python packages.
   
-  2. Ensure an appropriate alarm sound file (alarm.mp3) is available in the project directory or update the path in the ALARM_FILE variable.
+  2.Ensure an appropriate alarm sound file (alarm.mp3) is available in the project directory or update the path in the ALARM_FILE variable.
   
   3.Execute the script using python <script_name>.py to start the drowsiness monitoring system.
 
