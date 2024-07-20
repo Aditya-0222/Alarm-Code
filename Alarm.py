@@ -3,6 +3,8 @@ import keyboard
 import winsound
 
 def check_head_position():
+    print("Starting Anti-Sleep Alarm System...")
+    print("Press 'left' or 'right' arrow keys to simulate head movements.")
     # Simulate head movements (left and right arrow keys)
     while True:
         if keyboard.is_pressed('left') or keyboard.is_pressed('right'):
@@ -15,6 +17,4 @@ def check_head_position():
         time.sleep(1)  # Check every second
 
 if __name__ == "__main__":
-    print("Starting Anti-Sleep Alarm System...")
-    print("Press 'left' or 'right' arrow keys to simulate head movements.")
     check_head_position()
